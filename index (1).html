@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Brahmareddy Pittu — Data Analyst</title>
+<meta name="description" content="Brahmareddy Pittu — Data Analyst skilled in SQL, Excel, Tableau and R. Portfolio of projects, dashboards and experience.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='10' fill='%231B3A6B'/%3E%3Ctext x='32' y='42' font-family='monospace' font-size='26' fill='%23E8A33D' text-anchor='middle'%3EBP%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar__inner">
+    <a href="#summary" class="brand" aria-label="Back to top">
+      <span class="brand__cell">BP<span class="brand__ref">A1</span></span>
+      <span class="brand__name">Brahmareddy&nbsp;Pittu</span>
+    </a>
+
+    <nav class="tabs" aria-label="Section navigation">
+      <button class="tabs__scroller" aria-hidden="true" data-dir="-1">‹</button>
+      <div class="tabs__track" id="tabsTrack">
+        <a href="#summary" class="tab is-active" data-tab="summary">Summary</a>
+        <a href="#experience" class="tab" data-tab="experience">Experience</a>
+        <a href="#projects" class="tab" data-tab="projects">Projects</a>
+        <a href="#skills" class="tab" data-tab="skills">Skills</a>
+        <a href="#education" class="tab" data-tab="education">Education</a>
+        <a href="#contact" class="tab" data-tab="contact">Contact</a>
+      </div>
+      <button class="tabs__scroller" aria-hidden="true" data-dir="1">›</button>
+    </nav>
+
+    <a class="btn btn--ghost topbar__resume" href="assets/Brahmareddy_Pittu_Resume.pdf" download>Resume ↓</a>
+  </div>
+</header>
+
+<main>
+
+  <!-- HERO / SUMMARY -->
+  <section id="summary" class="hero">
+    <div class="grid-paper" aria-hidden="true"></div>
+    <div class="hero__inner">
+
+      <div class="query" role="img" aria-label="A SQL query that returns Brahmareddy Pittu as a data analyst open to opportunities">
+        <div class="query__bar">
+          <span class="query__dot"></span><span class="query__dot"></span><span class="query__dot"></span>
+          <span class="query__filename">candidate_search.sql</span>
+        </div>
+        <pre class="query__body"><code><span class="kw">SELECT</span> name, role, location, status
+<span class="kw">FROM</span>   data_analysts
+<span class="kw">WHERE</span>  tools <span class="op">@&gt;</span> <span class="str">ARRAY[</span><span class="str">'SQL','Excel','Tableau','R'</span><span class="str">]</span>
+  <span class="kw">AND</span>  curiosity <span class="op">=</span> <span class="bool">TRUE</span>
+<span class="kw">ORDER BY</span> impact <span class="kw">DESC</span>
+<span class="kw">LIMIT</span>  1<span class="cursor">▌</span></code></pre>
+      </div>
+
+      <p class="result-label">-- Result (1 row)</p>
+      <div class="result-row">
+        <div class="result-row__cell"><span class="result-row__k">name</span><span class="result-row__v result-row__v--lg">Brahmareddy Pittu</span></div>
+        <div class="result-row__cell"><span class="result-row__k">role</span><span class="result-row__v">Data Analyst / Business Analyst</span></div>
+        <div class="result-row__cell"><span class="result-row__k">location</span><span class="result-row__v">Hyderabad, India</span></div>
+        <div class="result-row__cell"><span class="result-row__k">status</span><span class="result-row__v result-row__v--status">Open to opportunities</span></div>
+      </div>
+
+      <p class="hero__tagline">I turn messy spreadsheets and raw tables into numbers people can actually act on — using SQL, Excel, Tableau and R.</p>
+
+      <div class="hero__ctas">
+        <a class="btn btn--primary" href="mailto:pibrahmareddypittu45@gmail.com">Email me</a>
+        <a class="btn btn--outline" href="https://public.tableau.com/app/profile/brama.reddy.pittu/vizzes" target="_blank" rel="noopener">View Tableau dashboards</a>
+      </div>
+
+      <p class="hero__summary">
+        I'm a detail-oriented, curious data analyst with hands-on experience across SQL, Excel, Tableau and R.
+        I like digging through messy, unglamorous data until a clear story comes out the other side — the kind
+        that actually changes what a team decides to do next. My background in Mathematics and Computer Science
+        gives me the analytical backbone; the rest comes from just being stubborn about getting the data right
+        before drawing any conclusions from it. Right now I'm looking to join a data-driven team where I can keep
+        building those skills and ship insights that get used, not just read.
+      </p>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience" class="section">
+    <h2 class="section__heading"><span class="section__tag">02</span>Experience</h2>
+
+    <article class="card timeline-card">
+      <div class="timeline-card__rail"><span class="timeline-card__dot"></span></div>
+      <div class="timeline-card__body">
+        <div class="timeline-card__head">
+          <h3>Data Analytics Intern</h3>
+          <span class="timeline-card__meta">Pink Moon Technologies PVT LTD · Vijayawada (Remote) · Jan – Apr 2024</span>
+        </div>
+        <div class="chip-row">
+          <span class="chip">Excel</span><span class="chip">SQL</span><span class="chip">Tableau</span>
+        </div>
+        <ul class="bullets">
+          <li>Cleaned, validated and prepared raw datasets in Excel and SQL, improving data accuracy used in business reporting.</li>
+          <li>Wrote SQL queries to extract, filter and aggregate data that fed into regular performance reports.</li>
+          <li>Ran exploratory data analysis to surface trends, patterns and data-quality gaps before they became someone else's problem.</li>
+          <li>Built interactive Tableau dashboards and Excel reports to track KPIs and key business metrics.</li>
+          <li>Worked cross-functionally to gather reporting requirements and turn them into insights stakeholders could actually use.</li>
+          <li>Documented analysis workflows so the reporting process could be repeated without me in the room.</li>
+        </ul>
+      </div>
+    </article>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section">
+    <h2 class="section__heading"><span class="section__tag">03</span>Projects</h2>
+
+    <div class="project-grid">
+
+      <article class="card project-card">
+        <div class="project-card__head">
+          <svg class="sparkline" viewBox="0 0 120 32" preserveAspectRatio="none" aria-hidden="true">
+            <polyline points="0,28 15,22 30,24 45,14 60,18 75,8 90,10 105,4 120,6" />
+          </svg>
+          <h3>Sales &amp; Revenue Performance Analysis</h3>
+        </div>
+        <div class="chip-row">
+          <span class="chip">SQL</span><span class="chip">Excel</span><span class="chip">Tableau</span>
+        </div>
+        <ul class="bullets">
+          <li>Analyzed multi-month sales and revenue data with SQL to spot growth trends, seasonal patterns and underperforming segments.</li>
+          <li>Used joins, subqueries and aggregations to pull reliable, structured data out of multiple tables.</li>
+          <li>Cleaned and standardized raw data in Excel using VLOOKUP, pivot tables and conditional formatting.</li>
+          <li>Built interactive Tableau dashboards tracking revenue, profit margin and region-wise performance so stakeholders could self-serve answers.</li>
+        </ul>
+      </article>
+
+      <article class="card project-card">
+        <div class="project-card__head">
+          <svg class="sparkline" viewBox="0 0 120 32" preserveAspectRatio="none" aria-hidden="true">
+            <polyline points="0,10 15,18 30,12 45,20 60,16 75,26 90,18 105,22 120,12" />
+          </svg>
+          <h3>Operational &amp; Customer Data Analysis</h3>
+        </div>
+        <div class="chip-row">
+          <span class="chip">R</span><span class="chip">dplyr</span><span class="chip">ggplot2</span><span class="chip">SQL</span>
+        </div>
+        <ul class="bullets">
+          <li>Cleaned, transformed and explored large operational datasets in R (dplyr) to surface trends, anomalies and efficiency gaps.</li>
+          <li>Built ggplot2 visualizations to communicate findings clearly to both technical and non-technical stakeholders.</li>
+          <li>Used SQL to filter, group and summarize large datasets, streamlining report generation.</li>
+          <li>Complemented the analysis with Excel summary charts and tables aligned to business objectives.</li>
+        </ul>
+      </article>
+
+      <article class="card project-card project-card--callout">
+        <div class="project-card__head">
+          <span class="callout-icon" aria-hidden="true">▥</span>
+          <h3>Published Tableau Work</h3>
+        </div>
+        <p class="callout-text">
+          Beyond these two projects, my Tableau Public profile holds the dashboards I've built and published end to end —
+          from raw data to a story someone outside the project can actually follow.
+        </p>
+        <a class="btn btn--outline" href="https://public.tableau.com/app/profile/brama.reddy.pittu/vizzes" target="_blank" rel="noopener">Browse dashboards on Tableau Public →</a>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section">
+    <h2 class="section__heading"><span class="section__tag">04</span>Skills</h2>
+
+    <div class="sheet">
+      <div class="sheet__row sheet__row--head">
+        <div class="sheet__cell">Languages &amp; Querying</div>
+        <div class="sheet__cell">Tools &amp; Platforms</div>
+        <div class="sheet__cell">Data Skills</div>
+        <div class="sheet__cell">Soft Skills</div>
+      </div>
+      <div class="sheet__row">
+        <div class="sheet__cell">
+          <span class="sheet__pill">SQL — Joins</span>
+          <span class="sheet__pill">SQL — Aggregations</span>
+          <span class="sheet__pill">SQL — Subqueries</span>
+          <span class="sheet__pill">SQL — Filtering &amp; Grouping</span>
+          <span class="sheet__pill">R — dplyr</span>
+          <span class="sheet__pill">R — ggplot2</span>
+        </div>
+        <div class="sheet__cell">
+          <span class="sheet__pill">Excel — Pivot Tables</span>
+          <span class="sheet__pill">Excel — VLOOKUP/XLOOKUP</span>
+          <span class="sheet__pill">Excel — Conditional Formatting</span>
+          <span class="sheet__pill">Tableau — Dashboards</span>
+          <span class="sheet__pill">Tableau — Reporting</span>
+          <span class="sheet__pill">Power BI — Basic</span>
+        </div>
+        <div class="sheet__cell">
+          <span class="sheet__pill">Data Cleaning &amp; Validation</span>
+          <span class="sheet__pill">Exploratory Data Analysis</span>
+          <span class="sheet__pill">KPI Tracking &amp; Reporting</span>
+          <span class="sheet__pill">Trend &amp; Pattern Analysis</span>
+          <span class="sheet__pill">Dashboard Design</span>
+          <span class="sheet__pill">Data Storytelling</span>
+        </div>
+        <div class="sheet__cell">
+          <span class="sheet__pill">Analytical Thinking</span>
+          <span class="sheet__pill">Attention to Detail</span>
+          <span class="sheet__pill">Stakeholder Communication</span>
+          <span class="sheet__pill">Report Writing</span>
+          <span class="sheet__pill">Team Collaboration</span>
+          <span class="sheet__pill">Problem Solving</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION & CERTIFICATIONS -->
+  <section id="education" class="section">
+    <h2 class="section__heading"><span class="section__tag">05</span>Education &amp; Certifications</h2>
+
+    <div class="ed-grid">
+      <article class="card">
+        <p class="card__eyebrow">Education</p>
+        <h3>BSc — Mathematics, Electronics &amp; Computer Science</h3>
+        <p class="card__meta">KVR KVR &amp; MKR College, Khajipalem<br>Affiliated with Acharya Nagarjuna University, Guntur, A.P., India</p>
+        <p class="card__meta">2021 – 2024</p>
+      </article>
+
+      <article class="card">
+        <p class="card__eyebrow">Certifications</p>
+        <ul class="cert-list">
+          <li>
+            <span>Accenture North America — Data Analytics &amp; Visualization Job Simulation (Forage)</span>
+            <a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Accenture%20North%20America/hzmoNKtzvAzXsEqx8_Accenture%20North%20America_fRxsoXj2WDL6kPyMK_1729673241004_completion_certificate.pdf" target="_blank" rel="noopener">View ↗</a>
+            <time>Oct 2024</time>
+          </li>
+          <li>
+            <span>Deloitte Australia — Data Analytics Job Simulation (Forage)</span>
+            <a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/9PBTqmSxAf6zZTseP/io9DzWKe3PTsiS6GG_9PBTqmSxAf6zZTseP_fRxsoXj2WDL6kPyMK_1742638333465_completion_certificate.pdf" target="_blank" rel="noopener">View ↗</a>
+            <time>Mar 2025</time>
+          </li>
+        </ul>
+      </article>
+    </div>
+  </section>
+
+</main>
+
+<!-- CONTACT / FOOTER -->
+<footer id="contact" class="footer">
+  <div class="footer__inner">
+    <p class="footer__heading">Let's talk data.</p>
+    <p class="footer__sub">Open to data analyst, business analyst and analyst-trainee roles — happy to walk through any project above in more detail.</p>
+    <div class="footer__links">
+      <a href="mailto:pibrahmareddypittu45@gmail.com">pibrahmareddypittu45@gmail.com</a>
+      <a href="tel:+917032828237">+91 7032828237</a>
+      <a href="https://www.linkedin.com/in/brahmareddy-pittu" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://public.tableau.com/app/profile/brama.reddy.pittu/vizzes" target="_blank" rel="noopener">Tableau Public</a>
+      <a href="assets/Brahmareddy_Pittu_Resume.pdf" download>Download résumé</a>
+    </div>
+    <p class="footer__credit">Built by Brahmareddy Pittu · Hyderabad, India</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
