@@ -1,63 +1,105 @@
-# Brahmareddy Pittu — Data Analyst Portfolio
+# Brahmareddy Pittu
 
-A single-page portfolio site styled around a "spreadsheet / SQL editor" theme —
-sheet-style tabs for navigation, a SQL query as the hero, and a skills section
-laid out like a worksheet. Pure HTML/CSS/JS, no build step, no dependencies
-beyond Google Fonts.
+Data Analyst | Business Analyst | SQL | Tableau | Excel | R | Data Visualization | Business Intelligence
 
-## Files
+## About Me
 
-```
-index.html      → all page content
-style.css       → all styling
-script.js       → scroll-spy for the active nav tab
-assets/
-  Brahmareddy_Pittu_Resume.pdf  → powers the "Resume ↓" download buttons
-```
+Detail-oriented Data Analyst with hands-on experience in SQL, Excel, Tableau, and R. Skilled in data cleaning, exploratory data analysis, dashboard development, KPI tracking, and business reporting. Passionate about transforming raw data into actionable insights that support business decision-making and operational improvements. Currently seeking Data Analyst, Business Analyst, Reporting Analyst, and Business Intelligence opportunities.
 
-## Before you publish — quick checklist
+## Open To
 
-- [ ] Swap `assets/Brahmareddy_Pittu_Resume.pdf` for your latest resume any
-      time you update it (keep the same filename, or update the two `href`s
-      in `index.html` that point to it).
-- [ ] Double-check the LinkedIn, Tableau Public, email and phone links in
-      `index.html` (hero buttons + footer) still point to the right place.
-- [ ] If you add a real headshot or screenshots of your dashboards, drop the
-      images into `assets/` and reference them from `index.html`.
+Data Analyst
+Business Analyst
+Reporting Analyst
+MIS Analyst
+BI Analyst
+Junior Data Analyst
+Operations Analyst
+## Tech Stack
 
-## Deploying with GitHub Pages
+Languages & Querying
 
-1. Create a new repository on GitHub (e.g. `portfolio` or
-   `brahmareddy-pittu.github.io` if you want it at the root of your GitHub
-   Pages domain).
-2. Upload these files to the repo, keeping the folder structure above —
-   either drag-and-drop them in the GitHub web UI, or from your machine:
-   ```bash
-   git init
-   git add .
-   git commit -m "Initial portfolio site"
-   git branch -M main
-   git remote add origin https://github.com/<your-username>/<repo-name>.git
-   git push -u origin main
-   ```
-3. In the repo, go to **Settings → Pages**.
-4. Under **Build and deployment → Source**, choose **Deploy from a branch**.
-5. Set **Branch** to `main` and folder to `/ (root)`, then **Save**.
-6. GitHub will give you a live URL after a minute or two, usually:
-   - `https://<your-username>.github.io/<repo-name>/`, or
-   - `https://<your-username>.github.io/` if your repo is named
-     `<your-username>.github.io`.
+SQL
+R
 
-That's it — no build tools, no npm install. Any time you edit `index.html`,
-`style.css`, or the resume PDF and push to `main`, the live site updates
-automatically within a minute or so.
+Analytics & BI Tools
 
-## Making changes later
+Tableau
+Excel
+Power BI
 
-Everything is plain HTML/CSS, so you can edit `index.html` directly:
-- New project → copy one of the `<article class="card project-card">` blocks
-  inside `#projects` and edit the text.
-- New certification → copy a `<li>` inside `.cert-list`.
-- Colors/fonts → all defined once at the top of `style.css` under
-  `:root { ... }`, so changing `--navy` or `--amber` there updates the whole
-  site.
+Data Analysis
+
+Data Cleaning
+Exploratory Data Analysis (EDA)
+KPI Reporting
+Dashboard Design
+Data Visualization
+Business Insights Generation
+
+## Featured Projects
+Sales & Revenue Performance Analysis
+
+Tools: SQL, Excel, Tableau
+
+Highlights:
+
+Revenue and sales trend analysis
+SQL joins, subqueries, aggregations
+KPI dashboard development
+Region-wise performance analysis
+Business recommendations for growth opportunities
+Operational & Customer Data Analysis
+
+Tools: R, SQL, Excel
+
+Highlights:
+
+Data cleaning and transformation
+EDA using dplyr
+Visualization using ggplot2
+Trend and anomaly detection
+Business process improvement insights
+
+## Experience
+Data Analytics Intern | Pink Moon Technologies Pvt Ltd
+
+Jan 2024 – Apr 2024
+
+Cleaned and validated datasets using SQL and Excel
+Performed EDA and business reporting
+Built Tableau dashboards for KPI monitoring
+Collaborated with stakeholders to deliver insights
+Documented analytics workflows and reporting processes
+
+## Certifications
+Accenture North America Data Analytics & Visualization Job Simulation
+Deloitte Australia Data Analytics Job Simulation
+
+## Connect With Me
+
+Include:
+
+LinkedIn : https://www.linkedin.com/in/brahmareddy-pittu
+Tableau Public Portfolio : https://public.tableau.com/app/profile/brama.reddy.pittu/vizzes
+Email : pibrahmareddypittu45@gmail.com
+
+
+
+## Skills
+
+![SQL](https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
+![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
+![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)
+![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)
+![PowerBI](https://img.shields.io/badge/PowerBI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+
+## GitHub Analytics
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=pittu9900&show_icons=true&theme=tokyonight)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=pittu9900&layout=compact&theme=tokyonight)
+
+## Contribution Graph
+
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=pittu9900&theme=tokyo-night)](https://github.com/pittu9900)
